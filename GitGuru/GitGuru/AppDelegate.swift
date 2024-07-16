@@ -2,51 +2,25 @@
 //  AppDelegate.swift
 //  GitGuru
 //
-//  Created by АХМЕДОВ НИКОЛАЙ on 01/12/2023.
-//  Copyright © 2023 Ahmedov Nikolay. All rights reserved.
+//  Created by АХМЕДОВ НИКОЛАЙ on 15/07/2024.
+//  Copyright © 2024 Ahmedov Nikolay. All rights reserved.
 //
 
 import UIKit
-import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let notificationCenter = UNUserNotificationCenter.current()
+        var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        notificationCenter.requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
-            guard granted else {return}
-            self.notificationCenter.getNotificationSettings { (settings) in
-                print(settings)
-                guard settings.authorizationStatus == .authorized else {return}
-            }
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            let window = UIWindow(frame: UIScreen.main.bounds)
+            let navigationController = UINavigationController(rootViewController: LoginFormViewController())
+            window.rootViewController = navigationController
+            self.window = window
+            window.makeKeyAndVisible()
+            return true
         }
-        notificationCenter.delegate = self
-        sendNotification()
-        return true
-    }
-    func sendNotification() {
-// MARK: - Use UNMutableNotificationContent not UNNotificationContent if you want to change content
-        let content = UNMutableNotificationContent()
-        content.title = "First Notification"
-        content.body = "My first notification"
-        content.sound = UNNotificationSound.default
-        
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
-        
-        let request = UNNotificationRequest(identifier: "notification", content: content, trigger: trigger)
-        notificationCenter.add(request) { (error) in
-            print(error?.localizedDescription)
-        }
-    }
-    
-
-    
-    
-    
-    
 
     // MARK: UISceneSession Lifecycle
 
@@ -65,16 +39,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-extension AppDelegate: UNUserNotificationCenterDelegate {
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification:
-        UNNotification, withCompletionHandler completionHandler: @escaping
-        (UNNotificationPresentationOptions) -> Void) {
-        completionHandler([.alert, .sound])
-        print (#function)
-}
- // MARK: Managing user actions when clicking on a notification
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response:
-        UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-        print (#function)
-    }
-}
