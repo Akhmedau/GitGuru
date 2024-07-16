@@ -7,231 +7,158 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		351082C52B30A73700AEB53B /* SwipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351082C42B30A73700AEB53B /* SwipeCell.swift */; };
-		351082C72B30A78800AEB53B /* SwipeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351082C62B30A78800AEB53B /* SwipeItem.swift */; };
-		351082C92B30A7AA00AEB53B /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351082C82B30A7AA00AEB53B /* SwipeViewController.swift */; };
-		351082CB2B30B3B500AEB53B /* ProdName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351082CA2B30B3B500AEB53B /* ProdName.swift */; };
-		3517448D2B28C7D400B1301E /* UIFont.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517448C2B28C7D400B1301E /* UIFont.ext.swift */; };
-		3517448F2B28C84C00B1301E /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3517448E2B28C84C00B1301E /* NSNotificationName.swift */; };
-		35797CDC2B39CA4100A004E9 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35797CDB2B39CA4100A004E9 /* GetStarted.swift */; };
-		35797CDE2B3A28C400A004E9 /* QuickStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35797CDD2B3A28C400A004E9 /* QuickStartViewController.swift */; };
-		35797CE02B3A291D00A004E9 /* QuickStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35797CDF2B3A291D00A004E9 /* QuickStartCell.swift */; };
-		357E4C752B1A8BD000878B5C /* UIColor.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357E4C742B1A8BD000878B5C /* UIColor.ext.swift */; };
-		359822412B1BE4F600972738 /* AppleSDGothicNeo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359822402B1BE4F600972738 /* AppleSDGothicNeo.ttf */; };
-		359822472B1CDB7C00972738 /* HelveticaNeueThin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359822462B1CDB7B00972738 /* HelveticaNeueThin.ttf */; };
-		35F410162B1A856600BD7B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F410152B1A856600BD7B49 /* AppDelegate.swift */; };
-		35F410182B1A856600BD7B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F410172B1A856600BD7B49 /* SceneDelegate.swift */; };
-		35F4101D2B1A856600BD7B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F4101B2B1A856600BD7B49 /* Main.storyboard */; };
-		35F4101F2B1A856700BD7B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F4101E2B1A856700BD7B49 /* Assets.xcassets */; };
-		35F410222B1A856700BD7B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F410202B1A856700BD7B49 /* LaunchScreen.storyboard */; };
-		E77DDC705D57DD9A6F70B176 /* Pods_GitGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE446F0C6DC34AE71C8924E /* Pods_GitGuru.framework */; };
+		2ABE7BA3BC8BC57B4398264A /* Pods_GitGuru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C753478F26674CB7989CD070 /* Pods_GitGuru.framework */; };
+		3598E4F82C4519810063E13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598E4F72C4519810063E13D /* AppDelegate.swift */; };
+		3598E4FA2C4519810063E13D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598E4F92C4519810063E13D /* SceneDelegate.swift */; };
+		3598E4FC2C4519810063E13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598E4FB2C4519810063E13D /* ViewController.swift */; };
+		3598E5012C4519830063E13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3598E5002C4519830063E13D /* Assets.xcassets */; };
+		3598E5042C4519830063E13D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3598E5022C4519830063E13D /* LaunchScreen.storyboard */; };
+		35FA89D52C4534040081F3E8 /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89D42C4534040081F3E8 /* LoginFormViewController.swift */; };
+		35FA89D72C45352F0081F3E8 /* ForgotPasswordFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89D62C45352F0081F3E8 /* ForgotPasswordFormViewController.swift */; };
+		35FA89D92C453E7D0081F3E8 /* RegistrationFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89D82C453E7D0081F3E8 /* RegistrationFormViewController.swift */; };
+		35FA89DC2C455A630081F3E8 /* OneTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89DB2C455A630081F3E8 /* OneTutorialVC.swift */; };
+		35FA89DF2C455DB50081F3E8 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89DE2C455DB50081F3E8 /* CustomPageControl.swift */; };
+		35FA89E12C465A810081F3E8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89E02C465A810081F3E8 /* CustomButton.swift */; };
+		35FA89E32C466D1F0081F3E8 /* TwoTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89E22C466D1F0081F3E8 /* TwoTutorialVC.swift */; };
+		35FA89E52C4676B20081F3E8 /* ThreeTutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89E42C4676B20081F3E8 /* ThreeTutorialVC.swift */; };
+		35FA89E82C4684DD0081F3E8 /* QuickStartFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA89E72C4684DD0081F3E8 /* QuickStartFormVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EE446F0C6DC34AE71C8924E /* Pods_GitGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		351082C42B30A73700AEB53B /* SwipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCell.swift; sourceTree = "<group>"; };
-		351082C62B30A78800AEB53B /* SwipeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeItem.swift; sourceTree = "<group>"; };
-		351082C82B30A7AA00AEB53B /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
-		351082CA2B30B3B500AEB53B /* ProdName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdName.swift; sourceTree = "<group>"; };
-		3517448C2B28C7D400B1301E /* UIFont.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.ext.swift; sourceTree = "<group>"; };
-		3517448E2B28C84C00B1301E /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
-		35797CDB2B39CA4100A004E9 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
-		35797CDD2B3A28C400A004E9 /* QuickStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartViewController.swift; sourceTree = "<group>"; };
-		35797CDF2B3A291D00A004E9 /* QuickStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartCell.swift; sourceTree = "<group>"; };
-		357E4C742B1A8BD000878B5C /* UIColor.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.ext.swift; sourceTree = "<group>"; };
-		359822402B1BE4F600972738 /* AppleSDGothicNeo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleSDGothicNeo.ttf; sourceTree = "<group>"; };
-		359822462B1CDB7B00972738 /* HelveticaNeueThin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeueThin.ttf; sourceTree = "<group>"; };
-		35F410122B1A856600BD7B49 /* GitGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F410152B1A856600BD7B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35F410172B1A856600BD7B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35F4101C2B1A856600BD7B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35F4101E2B1A856700BD7B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35F410212B1A856700BD7B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		35F410232B1A856700BD7B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49E1261096EBF460BAB6F37D /* Pods-GitGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGuru.release.xcconfig"; path = "Target Support Files/Pods-GitGuru/Pods-GitGuru.release.xcconfig"; sourceTree = "<group>"; };
-		8D5628E32D4C4DDFAEC20561 /* Pods-GitGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGuru.debug.xcconfig"; path = "Target Support Files/Pods-GitGuru/Pods-GitGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		0E3EF13C2AF4CA8133BEAD61 /* Pods-GitGuru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGuru.debug.xcconfig"; path = "Target Support Files/Pods-GitGuru/Pods-GitGuru.debug.xcconfig"; sourceTree = "<group>"; };
+		3598E4F42C4519810063E13D /* GitGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598E4F72C4519810063E13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3598E4F92C4519810063E13D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3598E4FB2C4519810063E13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3598E5002C4519830063E13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3598E5032C4519830063E13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3598E5052C4519830063E13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FA89D42C4534040081F3E8 /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
+		35FA89D62C45352F0081F3E8 /* ForgotPasswordFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordFormViewController.swift; sourceTree = "<group>"; };
+		35FA89D82C453E7D0081F3E8 /* RegistrationFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationFormViewController.swift; sourceTree = "<group>"; };
+		35FA89DB2C455A630081F3E8 /* OneTutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTutorialVC.swift; sourceTree = "<group>"; };
+		35FA89DE2C455DB50081F3E8 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		35FA89E02C465A810081F3E8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		35FA89E22C466D1F0081F3E8 /* TwoTutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTutorialVC.swift; sourceTree = "<group>"; };
+		35FA89E42C4676B20081F3E8 /* ThreeTutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTutorialVC.swift; sourceTree = "<group>"; };
+		35FA89E72C4684DD0081F3E8 /* QuickStartFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartFormVC.swift; sourceTree = "<group>"; };
+		3B69B33CC86D47238C49C800 /* Pods-GitGuru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGuru.release.xcconfig"; path = "Target Support Files/Pods-GitGuru/Pods-GitGuru.release.xcconfig"; sourceTree = "<group>"; };
+		C753478F26674CB7989CD070 /* Pods_GitGuru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitGuru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35F4100F2B1A856600BD7B49 /* Frameworks */ = {
+		3598E4F12C4519810063E13D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E77DDC705D57DD9A6F70B176 /* Pods_GitGuru.framework in Frameworks */,
+				2ABE7BA3BC8BC57B4398264A /* Pods_GitGuru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		351082C22B30991B00AEB53B /* Models */ = {
+		3598E4EB2C4519810063E13D = {
 			isa = PBXGroup;
 			children = (
-				351082C62B30A78800AEB53B /* SwipeItem.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		351082C32B30992B00AEB53B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				351082C82B30A7AA00AEB53B /* SwipeViewController.swift */,
-				35797CDD2B3A28C400A004E9 /* QuickStartViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		3529AC2F2B2E472B00C093B3 /* CodeHighlighter */ = {
-			isa = PBXGroup;
-			children = (
-				3529AC302B2E480100C093B3 /* Components */,
-			);
-			path = CodeHighlighter;
-			sourceTree = "<group>";
-		};
-		3529AC302B2E480100C093B3 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				3529AC312B2E480E00C093B3 /* CodeWindow */,
-				3529AC352B2E48E100C093B3 /* CodeTips */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		3529AC312B2E480E00C093B3 /* CodeWindow */ = {
-			isa = PBXGroup;
-			children = (
-				3529AC322B2E481C00C093B3 /* Models */,
-				3529AC332B2E482600C093B3 /* Resources */,
-				3529AC342B2E483700C093B3 /* Views */,
-			);
-			path = CodeWindow;
-			sourceTree = "<group>";
-		};
-		3529AC322B2E481C00C093B3 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3529AC332B2E482600C093B3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		3529AC342B2E483700C093B3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3529AC352B2E48E100C093B3 /* CodeTips */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CodeTips;
-			sourceTree = "<group>";
-		};
-		357E4C732B1A8B0900878B5C /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				357E4C742B1A8BD000878B5C /* UIColor.ext.swift */,
-				3517448C2B28C7D400B1301E /* UIFont.ext.swift */,
-				3517448E2B28C84C00B1301E /* NSNotificationName.swift */,
-				351082CA2B30B3B500AEB53B /* ProdName.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		357E4C762B1A8D0500878B5C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				351082C42B30A73700AEB53B /* SwipeCell.swift */,
-				35797CDB2B39CA4100A004E9 /* GetStarted.swift */,
-				35797CDF2B3A291D00A004E9 /* QuickStartCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3598223F2B1BE4DD00972738 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				359822402B1BE4F600972738 /* AppleSDGothicNeo.ttf */,
-				359822462B1CDB7B00972738 /* HelveticaNeueThin.ttf */,
-			);
-			path = Fonts;
-			sourceTree = "<group>";
-		};
-		35F410092B1A856600BD7B49 = {
-			isa = PBXGroup;
-			children = (
-				35F410142B1A856600BD7B49 /* GitGuru */,
-				35F410132B1A856600BD7B49 /* Products */,
-				B78DA371E59990C397A4752E /* Pods */,
-				8E6FF0DC5FC414FB92641F96 /* Frameworks */,
+				3598E4F62C4519810063E13D /* GitGuru */,
+				3598E4F52C4519810063E13D /* Products */,
+				642D5A5A01D6AD81B9C57AC2 /* Pods */,
+				D3534022AB05A07F2442A57E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		35F410132B1A856600BD7B49 /* Products */ = {
+		3598E4F52C4519810063E13D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35F410122B1A856600BD7B49 /* GitGuru.app */,
+				3598E4F42C4519810063E13D /* GitGuru.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		35F410142B1A856600BD7B49 /* GitGuru */ = {
+		3598E4F62C4519810063E13D /* GitGuru */ = {
 			isa = PBXGroup;
 			children = (
-				351082C22B30991B00AEB53B /* Models */,
-				357E4C762B1A8D0500878B5C /* Views */,
-				351082C32B30992B00AEB53B /* Controller */,
-				3598223F2B1BE4DD00972738 /* Fonts */,
-				357E4C732B1A8B0900878B5C /* Extensions */,
-				3529AC2F2B2E472B00C093B3 /* CodeHighlighter */,
-				35F410152B1A856600BD7B49 /* AppDelegate.swift */,
-				35F410172B1A856600BD7B49 /* SceneDelegate.swift */,
-				35F4101B2B1A856600BD7B49 /* Main.storyboard */,
-				35F4101E2B1A856700BD7B49 /* Assets.xcassets */,
-				35F410202B1A856700BD7B49 /* LaunchScreen.storyboard */,
-				35F410232B1A856700BD7B49 /* Info.plist */,
+				35FA89DD2C455D940081F3E8 /* Other */,
+				35FA89D12C4532D20081F3E8 /* Registration */,
+				35FA89DA2C4559EC0081F3E8 /* Tutorial */,
+				35FA89E62C4683F10081F3E8 /* Menu */,
+				3598E4F72C4519810063E13D /* AppDelegate.swift */,
+				3598E4F92C4519810063E13D /* SceneDelegate.swift */,
+				3598E4FB2C4519810063E13D /* ViewController.swift */,
+				3598E5002C4519830063E13D /* Assets.xcassets */,
+				3598E5022C4519830063E13D /* LaunchScreen.storyboard */,
+				3598E5052C4519830063E13D /* Info.plist */,
 			);
 			path = GitGuru;
 			sourceTree = "<group>";
 		};
-		8E6FF0DC5FC414FB92641F96 /* Frameworks */ = {
+		35FA89D12C4532D20081F3E8 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
-				0EE446F0C6DC34AE71C8924E /* Pods_GitGuru.framework */,
+				35FA89D42C4534040081F3E8 /* LoginFormViewController.swift */,
+				35FA89D62C45352F0081F3E8 /* ForgotPasswordFormViewController.swift */,
+				35FA89D82C453E7D0081F3E8 /* RegistrationFormViewController.swift */,
 			);
-			name = Frameworks;
+			path = Registration;
 			sourceTree = "<group>";
 		};
-		B78DA371E59990C397A4752E /* Pods */ = {
+		35FA89DA2C4559EC0081F3E8 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				8D5628E32D4C4DDFAEC20561 /* Pods-GitGuru.debug.xcconfig */,
-				49E1261096EBF460BAB6F37D /* Pods-GitGuru.release.xcconfig */,
+				35FA89DB2C455A630081F3E8 /* OneTutorialVC.swift */,
+				35FA89E22C466D1F0081F3E8 /* TwoTutorialVC.swift */,
+				35FA89E42C4676B20081F3E8 /* ThreeTutorialVC.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		35FA89DD2C455D940081F3E8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				35FA89DE2C455DB50081F3E8 /* CustomPageControl.swift */,
+				35FA89E02C465A810081F3E8 /* CustomButton.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		35FA89E62C4683F10081F3E8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				35FA89E72C4684DD0081F3E8 /* QuickStartFormVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		642D5A5A01D6AD81B9C57AC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E3EF13C2AF4CA8133BEAD61 /* Pods-GitGuru.debug.xcconfig */,
+				3B69B33CC86D47238C49C800 /* Pods-GitGuru.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3534022AB05A07F2442A57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C753478F26674CB7989CD070 /* Pods_GitGuru.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35F410112B1A856600BD7B49 /* GitGuru */ = {
+		3598E4F32C4519810063E13D /* GitGuru */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35F410262B1A856700BD7B49 /* Build configuration list for PBXNativeTarget "GitGuru" */;
+			buildConfigurationList = 3598E5082C4519830063E13D /* Build configuration list for PBXNativeTarget "GitGuru" */;
 			buildPhases = (
-				8362C68FCE446241705EFC75 /* [CP] Check Pods Manifest.lock */,
-				35F4100E2B1A856600BD7B49 /* Sources */,
-				35F4100F2B1A856600BD7B49 /* Frameworks */,
-				35F410102B1A856600BD7B49 /* Resources */,
-				95D72A015B4DA3A710714EE6 /* [CP] Embed Pods Frameworks */,
+				04CB58C1E62E88D9566C7A68 /* [CP] Check Pods Manifest.lock */,
+				3598E4F02C4519810063E13D /* Sources */,
+				3598E4F12C4519810063E13D /* Frameworks */,
+				3598E4F22C4519810063E13D /* Resources */,
+				FD394578117BFDD75D04E12E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,25 +166,25 @@
 			);
 			name = GitGuru;
 			productName = GitGuru;
-			productReference = 35F410122B1A856600BD7B49 /* GitGuru.app */;
+			productReference = 3598E4F42C4519810063E13D /* GitGuru.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		35F4100A2B1A856600BD7B49 /* Project object */ = {
+		3598E4EC2C4519810063E13D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Ahmedov Nikolay";
 				TargetAttributes = {
-					35F410112B1A856600BD7B49 = {
+					3598E4F32C4519810063E13D = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 35F4100D2B1A856600BD7B49 /* Build configuration list for PBXProject "GitGuru" */;
+			buildConfigurationList = 3598E4EF2C4519810063E13D /* Build configuration list for PBXProject "GitGuru" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -265,33 +192,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 35F410092B1A856600BD7B49;
-			productRefGroup = 35F410132B1A856600BD7B49 /* Products */;
+			mainGroup = 3598E4EB2C4519810063E13D;
+			productRefGroup = 3598E4F52C4519810063E13D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35F410112B1A856600BD7B49 /* GitGuru */,
+				3598E4F32C4519810063E13D /* GitGuru */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		35F410102B1A856600BD7B49 /* Resources */ = {
+		3598E4F22C4519810063E13D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F410222B1A856700BD7B49 /* LaunchScreen.storyboard in Resources */,
-				359822472B1CDB7C00972738 /* HelveticaNeueThin.ttf in Resources */,
-				359822412B1BE4F600972738 /* AppleSDGothicNeo.ttf in Resources */,
-				35F4101F2B1A856700BD7B49 /* Assets.xcassets in Resources */,
-				35F4101D2B1A856600BD7B49 /* Main.storyboard in Resources */,
+				3598E5042C4519830063E13D /* LaunchScreen.storyboard in Resources */,
+				3598E5012C4519830063E13D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8362C68FCE446241705EFC75 /* [CP] Check Pods Manifest.lock */ = {
+		04CB58C1E62E88D9566C7A68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,7 +237,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95D72A015B4DA3A710714EE6 /* [CP] Embed Pods Frameworks */ = {
+		FD394578117BFDD75D04E12E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,40 +257,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35F4100E2B1A856600BD7B49 /* Sources */ = {
+		3598E4F02C4519810063E13D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35797CDE2B3A28C400A004E9 /* QuickStartViewController.swift in Sources */,
-				357E4C752B1A8BD000878B5C /* UIColor.ext.swift in Sources */,
-				351082C72B30A78800AEB53B /* SwipeItem.swift in Sources */,
-				351082C92B30A7AA00AEB53B /* SwipeViewController.swift in Sources */,
-				351082CB2B30B3B500AEB53B /* ProdName.swift in Sources */,
-				35797CDC2B39CA4100A004E9 /* GetStarted.swift in Sources */,
-				3517448D2B28C7D400B1301E /* UIFont.ext.swift in Sources */,
-				351082C52B30A73700AEB53B /* SwipeCell.swift in Sources */,
-				3517448F2B28C84C00B1301E /* NSNotificationName.swift in Sources */,
-				35F410162B1A856600BD7B49 /* AppDelegate.swift in Sources */,
-				35797CE02B3A291D00A004E9 /* QuickStartCell.swift in Sources */,
-				35F410182B1A856600BD7B49 /* SceneDelegate.swift in Sources */,
+				35FA89D52C4534040081F3E8 /* LoginFormViewController.swift in Sources */,
+				35FA89D92C453E7D0081F3E8 /* RegistrationFormViewController.swift in Sources */,
+				35FA89E12C465A810081F3E8 /* CustomButton.swift in Sources */,
+				35FA89D72C45352F0081F3E8 /* ForgotPasswordFormViewController.swift in Sources */,
+				35FA89DF2C455DB50081F3E8 /* CustomPageControl.swift in Sources */,
+				35FA89E82C4684DD0081F3E8 /* QuickStartFormVC.swift in Sources */,
+				35FA89E32C466D1F0081F3E8 /* TwoTutorialVC.swift in Sources */,
+				35FA89DC2C455A630081F3E8 /* OneTutorialVC.swift in Sources */,
+				3598E4FC2C4519810063E13D /* ViewController.swift in Sources */,
+				3598E4F82C4519810063E13D /* AppDelegate.swift in Sources */,
+				3598E4FA2C4519810063E13D /* SceneDelegate.swift in Sources */,
+				35FA89E52C4676B20081F3E8 /* ThreeTutorialVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35F4101B2B1A856600BD7B49 /* Main.storyboard */ = {
+		3598E5022C4519830063E13D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35F4101C2B1A856600BD7B49 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		35F410202B1A856700BD7B49 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35F410212B1A856700BD7B49 /* Base */,
+				3598E5032C4519830063E13D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -374,7 +290,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		35F410242B1A856700BD7B49 /* Debug */ = {
+		3598E5062C4519830063E13D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		35F410252B1A856700BD7B49 /* Release */ = {
+		3598E5072C4519830063E13D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -488,9 +404,9 @@
 			};
 			name = Release;
 		};
-		35F410272B1A856700BD7B49 /* Debug */ = {
+		3598E5092C4519830063E13D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5628E32D4C4DDFAEC20561 /* Pods-GitGuru.debug.xcconfig */;
+			baseConfigurationReference = 0E3EF13C2AF4CA8133BEAD61 /* Pods-GitGuru.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,9 +424,9 @@
 			};
 			name = Debug;
 		};
-		35F410282B1A856700BD7B49 /* Release */ = {
+		3598E50A2C4519830063E13D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49E1261096EBF460BAB6F37D /* Pods-GitGuru.release.xcconfig */;
+			baseConfigurationReference = 3B69B33CC86D47238C49C800 /* Pods-GitGuru.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,25 +447,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		35F4100D2B1A856600BD7B49 /* Build configuration list for PBXProject "GitGuru" */ = {
+		3598E4EF2C4519810063E13D /* Build configuration list for PBXProject "GitGuru" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F410242B1A856700BD7B49 /* Debug */,
-				35F410252B1A856700BD7B49 /* Release */,
+				3598E5062C4519830063E13D /* Debug */,
+				3598E5072C4519830063E13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35F410262B1A856700BD7B49 /* Build configuration list for PBXNativeTarget "GitGuru" */ = {
+		3598E5082C4519830063E13D /* Build configuration list for PBXNativeTarget "GitGuru" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				35F410272B1A856700BD7B49 /* Debug */,
-				35F410282B1A856700BD7B49 /* Release */,
+				3598E5092C4519830063E13D /* Debug */,
+				3598E50A2C4519830063E13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 35F4100A2B1A856600BD7B49 /* Project object */;
+	rootObject = 3598E4EC2C4519810063E13D /* Project object */;
 }

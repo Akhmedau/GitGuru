@@ -1,16 +1,22 @@
 PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
   - SwiftyFORM (1.8.6)
 
 DEPENDENCIES:
-  - SwiftyFORM (~> 1.8)
+  - ChameleonFramework/Swift
+  - SwiftyFORM
 
 SPEC REPOS:
   trunk:
+    - ChameleonFramework
     - SwiftyFORM
 
 SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   SwiftyFORM: 9e8693193e626cf70940641433c810ba1ef3f53b
 
-PODFILE CHECKSUM: 5cdee725a582f46fe54296f082955495cb1d42dc
+PODFILE CHECKSUM: 1c4c652c343fa6c017860beb77dcba0c55a41100
 
 COCOAPODS: 1.12.1
